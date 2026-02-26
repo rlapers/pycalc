@@ -11,6 +11,7 @@ def calc(nb1, nb2, ope) :
         while cmp < nb2 :
             res += nb1
             cmp += 1
+        return res
     elif ope == "/" :
         return nb1/nb2
     return None
