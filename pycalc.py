@@ -8,7 +8,7 @@ def calc(nb1, nb2, ope) :
     elif ope == "*" :
         cmp = 0
         res = 0
-        while cmp < nb2 :
+        while cmp < int(nb2) :
             res += nb1
             cmp += 1
         return res
